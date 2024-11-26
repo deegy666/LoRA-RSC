@@ -1,0 +1,24 @@
+# Optimization params.
+
+lr_adapter: 0.005
+lr_LoRA: 0.01
+lr_prompt: 0.01 # Used for SPT, DPT, and Prefix T.
+lr_fullFT: 0.00005
+lr_linear: 0.001
+
+weight_decay: 0.1
+
+
+final_output: 'CLS' # Which tokens are used for the final classification? Options: ['ALL', 'CLS'].
+final_output_prompt_tuning: 'ALL' # Options: ['ALL', 'CLS', 'PROMPTS', 'SPEECH', 'PROMPTS+SPEECH'].
+
+# Prefix Tuning params.
+patch_size: 16
+hidden_size: 768
+
+# Datasets params.
+
+max_len_AST_ICBHI: 500
+num_classes_ICBHI: 4
+batch_size_ICBHI: 16
+epochs_ICBHI: 100
