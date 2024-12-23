@@ -1,6 +1,7 @@
 # LoRA-RSC
 This is the code repository for paper "Low-rank Adaptation Method for Respiratory Sound Classification: A necessary road towards Large Models".
 
+Congratulations, this paper is accepted at ICASSP 2025!
 ## Prepare dataset and pre-training model
 #### dataset
  You can download it from the official ICBHI website https://bhichallenge.med.auth.gr/
